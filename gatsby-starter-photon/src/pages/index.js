@@ -35,22 +35,23 @@ class Homepage extends React.Component {
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
                         <div className="col-6">
-                            <ul className="major-icons">
-                                <li>JavaScript<img src={jsimg} width='80'/></li>
-                                <li>Node<img src={nodeimg} width='80'/></li>
-                                <li>React<img src={reactlogo} width='80'/></li>
-                                <li>SQL<img src={sql} width='80'/></li>
-                                <li>Postgress<img src={postgress} width='80'/></li>
-                                <li>Gatsby<img src={gatsbyimg} width='80'/></li>
-                            </ul>
-                        </div>
-                        <div className="col-6">
                             <header className="major">
                                 <h2>Skills<br />
-                                web dev</h2>
+                                    web dev</h2>
                             </header>
                             <p>Big text explaining the skill set that I was able to learn and new things</p>
                         </div>
+                        <div className="col-6">
+                            <ul className="major-icons">
+                                <li><img src={jsimg} width='80' /><p>JavaScript</p></li>
+                                <li><img src={nodeimg} width='80' /><p>Node</p></li>
+                                <li><img src={reactlogo} width='80' /><p>React</p></li>
+                                <li><img src={sql} width='80' /><p>SQL</p></li>
+                                <li><img src={postgress} width='80' /><p>Postgress</p></li>
+                                <li><img src={gatsbyimg} width='80' /><p>Gatsby</p></li>
+                            </ul>
+                        </div>
+
                     </div>
                 </section>
 
