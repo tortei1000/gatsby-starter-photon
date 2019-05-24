@@ -36,12 +36,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon style1 major ">JavaScript<img src={jsimg} width='150'/></span></li>
-                                <li><span className="icon style2 major">Node<img src={nodeimg} width='150'/></span></li>
-                                <li><span className="icon style3 major">React<img src={reactlogo} width='150'/></span></li>
-                                <li><span className="icon style4 major">SQL<img src={sql} width='150'/></span></li>
-                                <li><span className="icon style5 major">Postgress<img src={postgress} width='150'/></span></li>
-                                <li><span className="icon style6 major">Gatsby<img src={gatsbyimg} width='150'/></span></li>
+                                <li>JavaScript<img src={jsimg} width='80'/></li>
+                                <li>Node<img src={nodeimg} width='80'/></li>
+                                <li>React<img src={reactlogo} width='80'/></li>
+                                <li>SQL<img src={sql} width='80'/></li>
+                                <li>Postgress<img src={postgress} width='80'/></li>
+                                <li>Gatsby<img src={gatsbyimg} width='80'/></li>
                             </ul>
                         </div>
                         <div className="col-6">
