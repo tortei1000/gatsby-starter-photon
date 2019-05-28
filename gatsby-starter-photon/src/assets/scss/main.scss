@@ -46,6 +46,10 @@
 		font-weight: _font(weight);
 		line-height: 1.65em;
 	}
+	
+	.skill-text{
+		font-size: 20px;
+	}
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));

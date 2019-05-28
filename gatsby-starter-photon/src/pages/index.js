@@ -2,13 +2,14 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
-
+import redux from '../assets/images/redux.png'
 import nodeimg from '../assets/images/node.png'
 import jsimg from '../assets/images/js.png'
 import gatsbyimg from '../assets/images/gatsby.png'
 import postgress from '../assets/images/postgress.png'
 import reactlogo from '../assets/images/reactlogo.png'
 import sql from '../assets/images/sql.png'
+import sass from '../assets/images/sass.png'
 
 class Homepage extends React.Component {
     render() {
@@ -39,16 +40,17 @@ class Homepage extends React.Component {
                                 <h2>Skills<br />
                                     web dev</h2>
                             </header>
-                            <p>Big text explaining the skill set that I was able to learn and new things</p>
+                            <p className='skill-text'>Full stack web developer with emphasis on React.  Among others I have experience with the following:</p>
                         </div>
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><img src={jsimg} width='80' /><p>JavaScript</p></li>
-                                <li><img src={nodeimg} width='80' /><p>Node</p></li>
-                                <li><img src={reactlogo} width='80' /><p>React</p></li>
-                                <li><img src={sql} width='80' /><p>SQL</p></li>
-                                <li><img src={postgress} width='80' /><p>Postgress</p></li>
-                                <li><img src={gatsbyimg} width='80' /><p>Gatsby</p></li>
+                                <li><img src={jsimg} width='50' /><p>JavaScript</p></li>
+                                <li><img src={nodeimg} width='60' /><p>Node</p></li>
+                                <li><img src={reactlogo} width='60' /><p>React</p></li>
+                                <li><img src={redux} width='50' /><p>React/Redux</p></li>
+                                <li><img src={postgress} width='50' /><p>Postgress / SQL</p></li>
+                                <li><img src={gatsbyimg} width='50' /><p>Gatsby</p></li>
+                                <li><img src={sass} width='80' /><p>Sass</p></li>
                             </ul>
                         </div>
 
@@ -97,10 +99,10 @@ class Homepage extends React.Component {
                         <header className="major">
                             <h2>Are you interested in building something together?</h2>
                         </header>
-                        <p>please contact me on ...</p>
+                        {/* <p>please...</p> */}
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="mailto:tiagomaffei@gmail.com" className="button special">Email me</a></li>
+                            {/* <li><a href="#" className="button">Learn More</a></li> */}
                         </ul>
                     </div>
                 </section>
