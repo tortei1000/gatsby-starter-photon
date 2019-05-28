@@ -45,12 +45,12 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <ul className="major-icons">
                                 <li><img src={jsimg} width='50' /><p>JavaScript</p></li>
-                                <li><img src={nodeimg} width='60' /><p>Node</p></li>
-                                <li><img src={reactlogo} width='60' /><p>React</p></li>
+                                <li><img src={nodeimg} width='50' /><p>Node</p></li>
+                                <li><img src={reactlogo} width='50' /><p>React</p></li>
                                 <li><img src={redux} width='50' /><p>React/Redux</p></li>
                                 <li><img src={postgress} width='50' /><p>Postgress / SQL</p></li>
                                 <li><img src={gatsbyimg} width='50' /><p>Gatsby</p></li>
-                                <li><img src={sass} width='80' /><p>Sass</p></li>
+                                <li><img src={sass} width='50' /><p>Sass</p></li>
                             </ul>
                         </div>
 

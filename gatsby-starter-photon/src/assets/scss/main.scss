@@ -969,7 +969,7 @@
 				width: 1px;
 			}
 		}
-
+ 
 		.inner {
 			@include vendor('transition', ('transform 1.5s ease', 'opacity 2s ease'));
 			@include vendor('transition-delay', '0.25s');
@@ -1092,6 +1092,10 @@
 
 			ul {
 				&.major-icons {
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: left;
 					li {
 						padding: 2em;
 
