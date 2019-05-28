@@ -50,7 +50,7 @@ class Homepage extends React.Component {
                                 <li><img src={redux} width='50' /><p>React/Redux</p></li>
                                 <li><img src={postgress} width='50' /><p>Postgress / SQL</p></li>
                                 <li><img src={gatsbyimg} width='50' /><p>Gatsby</p></li>
-                                <li><img src={sass} width='50' /><p>Sass</p></li>
+                                <li><img src={sass} width='80' /><p>Sass</p></li>
                             </ul>
                         </div>
 
